@@ -14,6 +14,7 @@
 
 html {
   background: var(--color-ink);
+  overflow-x: clip;
 }
 
 body {
@@ -21,6 +22,8 @@ body {
   color: var(--color-paper);
   font-family: var(--font-sans);
   text-rendering: optimizeLegibility;
+  overflow-x: clip;
+  max-width: 100%;
 }
 
 ::selection {

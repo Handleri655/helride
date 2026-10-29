@@ -145,7 +145,7 @@ export function HomePage({ locale }: { locale: Locale }) {
         </Container>
       </section>
 
-      <div className="overflow-hidden border-y border-white/10" aria-hidden="true">
+      <div className="max-w-full overflow-x-clip border-y border-white/10" aria-hidden="true">
         <div className="ticker flex w-max">
           <p className="px-6 py-3 font-display text-2xl uppercase tracking-wide text-mist">{ticker}</p>
           <p className="ticker-copy px-6 py-3 font-display text-2xl uppercase tracking-wide text-mist">{ticker}</p>

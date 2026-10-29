@@ -88,7 +88,7 @@ export function SiteHeader() {
               EN
             </Link>
           </nav>
-          <Link href={pagePath(locale, "membership")} className={`${buttonClass("signal")} hidden lg:inline-flex`}>
+          <Link href={pagePath(locale, "membership")} className={`${buttonClass("signal")} max-lg:hidden`}>
             {copy.membershipCta}
           </Link>
           <button
